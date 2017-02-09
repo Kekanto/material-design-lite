@@ -231,7 +231,7 @@ gulp.task('closure', () => {
 });
 
 // Concatenate And Minify JavaScript
-gulp.task('scripts', ['lint'], () => {
+gulp.task('scripts', [], () => {
   return gulp.src(SOURCES)
     .pipe($.if(/mdlComponentHandler\.js/, $.util.noop(), uniffe()))
     .pipe($.sourcemaps.init())
