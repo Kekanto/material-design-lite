@@ -5,7 +5,7 @@
   "private": true,
   "license": "Apache-2.0",
   "author": "Google",
-  "repository": "google/material-design-lite",
+  "repository": "Kekanto/material-design-lite",
   "main": "dist/material.min.js",
   "devDependencies": {
     "acorn": "^4.0.3",
